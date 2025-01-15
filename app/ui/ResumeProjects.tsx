@@ -3,11 +3,11 @@
 export default function ResumeProjects() {
     return(
         <div className="py-2">
-            <span>Projects</span>
+            <span className="text-2xl uppercase">Projects</span>
             <hr/>
             <div>
                 <div>
-                    <span>Selfhosting Personal Services</span>
+                    <span className="text-xl">Selfhosting Personal Services</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>Determined what services would be best to host on internal network compared to a Virtual Private Server (VPS)</li>
@@ -19,7 +19,7 @@ export default function ResumeProjects() {
                     </div>
                 </div>
                 <div>
-                    <span>Minecraft Hosting</span>
+                    <span className="text-xl">Minecraft Hosting</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>Found and evaluated different hosting services</li>
@@ -32,7 +32,7 @@ export default function ResumeProjects() {
                     </div>
                 </div>
                 <div>
-                    <span>RIT App Inventor</span>
+                    <span className="text-xl">RIT App Inventor</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>Worked on a team of 4 to build open source extensions for Android development on MIT App Inventor.</li>
@@ -42,7 +42,7 @@ export default function ResumeProjects() {
                     </div>
                 </div>
                 <div>
-                    <span>Donatorio</span>
+                    <span className="text-xl">Donatorio</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>Worked on a team of 5 to create a user interface for a donation website using Python Flask.</li>
@@ -53,7 +53,7 @@ export default function ResumeProjects() {
                     </div>
                 </div>
                 <div>
-                    <span>ERP</span>
+                    <span className="text-xl">ERP</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>Worked with an entire class to create an Enterprise Resource Planner application using Python Flask.</li>
@@ -62,7 +62,7 @@ export default function ResumeProjects() {
                     </div>
                 </div>
                 <div>
-                    <span>Movie Plot Scrambler</span>
+                    <span className="text-xl">Movie Plot Scrambler</span>
                     <div>
                         <ul className="list-inside list-disc text-sm text-center sm:text-left">
                             <li>A project that's in progress to pull a movie's information from OMDb's API and replace each word in the plot with a random synonym to obfuscate the meaning.</li>

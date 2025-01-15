@@ -5,8 +5,12 @@ export default function ResumeHeader() {
         <div className="py-2">
             {/* <div>Header</div> */}
             <div className="flex">
-                <div className="inline-block flex-1">Nathan Oesterle</div>
-                <div className="inline-block flex-1 text-right">Software Engineer</div>
+                <div className="inline-block flex-1 uppercase text-4xl">Nathan Oesterle</div>
+                <div className="inline-block flex-1 align-text-bottom text-right uppercase justify-end text-2xl">
+                    <p className="align-text-bottom text-right justify-end text-2xl">
+                        Software Engineer
+                    </p>
+                </div>
             </div>
             <hr/>
             <div className="flex">

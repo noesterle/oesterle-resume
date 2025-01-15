@@ -3,17 +3,17 @@
 export default function ResumeExperience() {
     return(
         <div className="py-2">
-            <span>Employment</span>
+            <span className="text-2xl uppercase">Employment</span>
             <hr/>
             <div className="flex">
-                <div className="inline-block flex-auto">Avidia Bank</div>
+                <div className="inline-block flex-auto text-xl font-bold">Avidia Bank</div>
                 <div className="inline-block">
                     <span>Aug 2020 - Present</span>
                 </div>
             </div>
-            <div>
-                <span>Application Developer</span>
-                <span>Hudson, MA</span>
+            <div className="flex">
+                <span className="inline-block flex-auto italic">Application Developer</span>
+                <span className="inline-block">Hudson, MA</span>
             </div>
             <div>
                 <ul className="list-inside list-disc text-sm text-center sm:text-left">
@@ -28,14 +28,14 @@ export default function ResumeExperience() {
                 </ul>
             </div>
             <div className="flex">
-                <div className="inline-block flex-auto">Entropix LLC</div>
+                <div className="inline-block flex-auto text-xl font-bold">Entropix LLC</div>
                 <div className="inline-block">
                     <span>May 2018 - Aug. 2019</span>
                 </div>
             </div>
-            <div>
-                <span>Engineering Co-op</span>
-                <span>Victor, NY</span>
+            <div className="flex">
+                <span className="inline-block flex-auto italic">Engineering Co-op</span>
+                <span className="inline-block">Victor, NY</span>
             </div>
             <div>
                 <ul className="list-inside list-disc text-sm text-center sm:text-left">
@@ -47,14 +47,14 @@ export default function ResumeExperience() {
                 </ul>
             </div>
             <div className="flex">
-                <div className="inline-block flex-auto">General Dynamics Mission Systems</div>
+                <div className="inline-block flex-auto text-xl font-bold">General Dynamics Mission Systems</div>
                 <div className="inline-block">
                     <span>June 2017 - Aug. 2017, June 2016 - Dec. 2016</span>
                 </div>
             </div>
-            <div>
-                <span>Software Developer Co-op</span>
-                <span>Pittsfield, MA</span>
+            <div className="flex">
+                <span className="inline-block flex-auto italic">Software Developer Co-op</span>
+                <span className="inline-block">Pittsfield, MA</span>
             </div>
             <div>
                 <ul className="list-inside list-disc text-sm text-center sm:text-left">

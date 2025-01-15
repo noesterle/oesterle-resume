@@ -3,10 +3,10 @@
 export default function ResumeEducation() {
     return(
         <div className="py-2">
-            <span>Education</span>
+            <span className="text-2xl uppercase">Education</span>
             <hr/>
             <div className="flex">
-                <div className="inline-block flex-auto">Rochester Institute of Technology</div>
+                <div className="inline-block flex-auto text-xl font-bold">Rochester Institute of Technology</div>
                 <div className="inline-block">
                     <span>Aug 2014 - May 2020</span></div>
             </div>
