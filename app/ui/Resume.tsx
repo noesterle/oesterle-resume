@@ -13,6 +13,7 @@ export default function Resume() {
     return(
         <PageWrapper>
             <ResumeHeader/>
+            <div className="flex">
             <LeftPanel>
                 <ResumeSummary></ResumeSummary>
                 <ResumeEducation></ResumeEducation>
@@ -22,6 +23,7 @@ export default function Resume() {
                 <ResumeSkills></ResumeSkills>
                 <ResumeExperience></ResumeExperience>
             </RightPanel>
+            </div>
         </PageWrapper>
     );
 }
