@@ -2,7 +2,7 @@
 
 export default function ResumeSkills() {
     return(
-        <div>
+        <div className="py-2">
             <span>Skills</span>
             <hr/>
             <div>

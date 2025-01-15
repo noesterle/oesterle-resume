@@ -2,7 +2,7 @@
 
 export default function ResumeProjects() {
     return(
-        <div>
+        <div className="py-2">
             <span>Projects</span>
             <hr/>
             <div>

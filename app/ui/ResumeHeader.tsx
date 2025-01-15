@@ -2,7 +2,7 @@
 
 export default function ResumeHeader() {
     return(
-        <div>
+        <div className="py-2">
             {/* <div>Header</div> */}
             <div className="flex">
                 <div className="inline-block flex-1">Nathan Oesterle</div>

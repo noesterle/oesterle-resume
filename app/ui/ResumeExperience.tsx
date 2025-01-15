@@ -2,7 +2,7 @@
 
 export default function ResumeExperience() {
     return(
-        <div>
+        <div className="py-2">
             <span>Employment</span>
             <hr/>
             <div className="flex">

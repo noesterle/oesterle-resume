@@ -2,7 +2,7 @@
 
 export default function ResumeEducation() {
     return(
-        <div>
+        <div className="py-2">
             <span>Education</span>
             <hr/>
             <div className="flex">
