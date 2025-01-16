@@ -1,0 +1,132 @@
+resume:
+  name: Nathan Oesterle
+  jobtitle: Software Engineer
+  contact:
+    - title: contact@oesterle.io
+      icon: envelope
+      link: mailto
+    - title: Github
+      icon: Github
+      link: https://github.com/noesterle
+    - title: LinkedIn
+      icon: LinkedIn
+      link: https://linkedin.com/nathan-oesterle
+  summary: "To Obtain..."
+  education:
+    - title: Rochester Institute of Technology
+      degree: BS in SE
+      desc: "Advanced Courses: Senior Project; Process and Project Management; Human Centered Requirements and Design; Software Testing; Performance Engineering; Analysis of Algorithms"
+  projects:
+    - title: Selfhosting Personal Services
+      desc:
+      - Determined what services would be best to host on internal network compared to a Virtual Private Server (VPS)
+      - Found and evaluated VPS providers, balancing price, features, and location
+      - Set up a domain and set DNS records to point to the VPS
+      - Set up multiple desired containerized services behind a reverse proxy with TLS certificates, using Docker and Docker Compose
+      - Set up Fail2Ban and only SSH Key starting as security measures
+    - title: Minecraft Hosting
+      desc:
+      - Found and evaluated different hosting services
+      - Evaluated different editions of the game engine available to run on the server
+      - Evaluate the compatibility of Game Modifications (mods) with other mods and packs of mods
+      - Wrote posts walking users through common problems based on common error messages
+      - Forked a project to monitor different aspects of the server, including RAM usage, CPU usage, and the online player count
+      - Determine when upgrades are necessary and possible based on system resource usage, reported user experience, and available funds
+    - title: RIT App Inventor
+      desc:
+      - Worked on a team of 4 to build open source extensions for Android development on MIT App Inventor.
+      - Built a Sound Pressure Level extension to measure the sound pressure in weighted decibels.
+      - Building an extension to control a robot powered by Robot Operating System.
+    - title: Donatorio
+      desc:
+      - Worked on a team of 5 to create a user interface for a donation website using Python Flask.
+      - Determined desired functionality and feature set of website and interviewed target users.
+      - Created design requirements based on the results of the interviews.
+      - Built a responsive website based on those requirements.
+    - title: ERP
+      desc:
+      - Worked with an entire class to create an Enterprise Resource Planner application using Python Flask.
+      - Created API and a storage system for Human Resources, managing employment and salaries.
+    - title: Movie Plot Scrambler
+      desc:
+      - A project that's in progress to pull a movie's information from OMDb's API and replace each word in the plot with a random synonym to obfuscate the meaning.
+      - Written in TypeScript and HTML in Angular's framework which will be stylized with CSS with the purpose of exploring these technologies.
+  skills:
+    - title: languages
+      items:
+      - Python
+      - Java
+      - C
+      - Rust
+      - SQL
+      - Bash
+      - Angular
+      - TypeScript
+      - HTML
+      - Ruby
+      - JUnit
+      - Flask
+      - Django
+      - Dataweave
+      - Docker Compose
+    - title: platforms
+      items:
+      - Ubuntu
+      - Windows
+      - Red Hat Enterprise Linux
+      - Android
+      - Mulesoft
+      - Docker
+    - title: source control
+      items:
+      - Git
+      - Subversion
+  employment:
+    - company: Avidia Bank
+    - location: Hudson MA
+    - positions:
+      - title: Application Developer
+      - start: Aug 2020
+      - end: present
+      - desc:
+        - Designed, implemented, documented, and maintained Mulesoft microservices using Dataweave and Java to act as wrappers for API endpoints from external services to provide a more uniform experience when using 3rd party services
+        - Wrote documentation and example code used to onboard new partners to our API and assisted partners with implementation issues
+        - Designed, implemented, documented, and maintained a Mulesoft application to manage automated Billpay with virtual credit cards funded by deposit accounts
+        - Implemented automated Gitlab CI/CD pipelines to automatically build, test, scan for security issues, and deploy into multiple environments
+        - Replaced a third party tool that compared employee information with customer and account information to flag potential fraud with an internal Python Pandas script as licensing costs were increasing dramatically, leading to discovering the third party tool as comparing address phonetically instead of by string contents which increased the quality of generated reports
+        - Designed, implemented, and documented Excel Macros to assist the risk department investigating and reporting fraudulent transactions as well as producing end of year reports, handling hours of work with the click of a button
+        - Designed and deployed a central location for documentation that pulls documentation from numerous Gitlab repositories to view as one website or document, for both users and developers alike
+        - Designed, implemented, documented, and maintained microservices to ingest textfiles in various flat-file formats to add data to Salesforce to help Customer Service team members assist customers
+    - company: Entropix LLC
+    - location: Victor NY
+    - positions:
+      - title: Engineer Co-op
+      - start: May 2018
+      - end: Aug 2019
+      - desc:
+        - Worked on various pieces of software to track and demodulate high frequency signals and display info to the user, including a Java plugin that communicated to a Python server.
+        - Created and edited Java based user interfaces with JformDesigner.
+        - Added master/slave functionality so separate instances of the server can work for each other.
+        - Added ability to show how signals are tracked over time.
+        - Ported antenna software written in C between CPU architectures for hardware upgrades.
+    - company: General Dynamics Mission Systems
+    - location: Pittfield MA
+    - positions:
+      - title: Software Developer Co-op
+      - start: June 2017
+      - end: Aug 2017
+      - desc:
+        - Worked on various pieces of software to track and demodulate high frequency signals and display info to the user, including a Java plugin that communicated to a Python server.
+        - Created and edited Java based user interfaces with JformDesigner.
+        - Added master/slave functionality so separate instances of the server can work for each other.
+        - Added ability to show how signals are tracked over time.
+        - Ported antenna software written in C between CPU architectures for hardware upgrades.
+      - title: Software Developer Co-op
+      - start: June 2016
+      - end: Dec 2016
+      - desc:
+        - Worked on various pieces of software to track and demodulate high frequency signals and display info to the user, including a Java plugin that communicated to a Python server.
+        - Created and edited Java based user interfaces with JformDesigner.
+        - Added master/slave functionality so separate instances of the server can work for each other.
+        - Added ability to show how signals are tracked over time.
+        - Ported antenna software written in C between CPU architectures for hardware upgrades.

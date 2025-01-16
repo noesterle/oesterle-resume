@@ -8,11 +8,24 @@ import ResumeProjects from "./ResumeProjects";
 import ResumeHeader from "./ResumeHeader";
 import ResumeSummary from "./ResumeSummary";
 
+type ResumeProps = {
+    resume: ResumeType
+}
 
-export default function Resume() {
+export default function Resume({ resume }: ResumeProps) {
+    const {
+        name,
+        jobtitle,
+        contact,
+        summary,
+        education,
+        projects,
+        skills,
+        employment
+    } = resume.resume
     return(
         <PageWrapper>
-            <ResumeHeader/>
+            <ResumeHeader name={name} jobtitle={jobtitle} contact={contact}/>
             <div className="flex">
             <LeftPanel>
                 <ResumeSummary></ResumeSummary>
