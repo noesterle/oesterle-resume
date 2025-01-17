@@ -28,7 +28,7 @@ export default function Resume({ resume }: ResumeProps) {
             <ResumeHeader name={name} jobtitle={jobtitle} contacts={contact}/>
             <div className="flex">
             <LeftPanel>
-                <ResumeSummary></ResumeSummary>
+                <ResumeSummary summary={summary}></ResumeSummary>
                 <ResumeEducation></ResumeEducation>
                 <ResumeProjects></ResumeProjects>
             </LeftPanel>

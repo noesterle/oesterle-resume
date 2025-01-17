@@ -1,11 +1,15 @@
+import { Summary } from "@/data/types";
 
+type SummaryProps = {
+    summary: Summary
+}
 
-export default function ResumeSummary() {
+export default function ResumeSummary({ summary }: SummaryProps) {
     return(
         <div className="py-2">
             <span className="text-2xl uppercase">Summary</span>
             <hr/>
-            <span className="text-justify">To obtain a full-time position as a Software Engineer in order to solve challenging problems and deploy quality code that helps to improve people's digital experiences and lives.</span>
+            <span className="text-justify">{summary}</span>
         </div>
     );
 }
