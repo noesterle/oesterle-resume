@@ -29,7 +29,7 @@ export default function Resume({ resume }: ResumeProps) {
             <div className="flex">
             <LeftPanel>
                 <ResumeSummary summary={summary}></ResumeSummary>
-                <ResumeEducation></ResumeEducation>
+                <ResumeEducation education={education}></ResumeEducation>
                 <ResumeProjects></ResumeProjects>
             </LeftPanel>
             <RightPanel>

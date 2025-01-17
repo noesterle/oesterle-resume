@@ -14,7 +14,7 @@ resume:
   summary: "To obtain a full-time position as a Software Engineer in order to solve challenging problems and deploy quality code that helps to improve people's digital experiences and lives."
   education:
     - title: Rochester Institute of Technology
-      degree: BS in SE
+      degree: Bachelors of Science Software Engineering 2020
       desc: "Advanced Courses: Senior Project; Process and Project Management; Human Centered Requirements and Design; Software Testing; Performance Engineering; Analysis of Algorithms"
   projects:
     - title: Selfhosting Personal Services
