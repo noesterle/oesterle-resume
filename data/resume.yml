@@ -4,11 +4,11 @@ resume:
   contact:
     - title: contact@oesterle.io
       icon: envelope
-      link: mailto
-    - title: Github
+      link: mailto:contact@oesterle.io
+    - title: Github://noesterle
       icon: Github
       link: https://github.com/noesterle
-    - title: LinkedIn
+    - title: LinkedIn://nathan-oesterle
       icon: LinkedIn
       link: https://linkedin.com/nathan-oesterle
   summary: "To Obtain..."

@@ -1,3 +1,6 @@
+import {Name, Contact, JobTitle} from "@/data/types"
+import Link from "next/link";
+
 
 type HeaderProps = {
     name: Name;
@@ -19,9 +22,11 @@ export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) 
             </div>
             <hr/>
             <div className="flex">
-                <div className="inline-block pr-5">Email</div>
-                <div className="inline-block px-5">LinkedIn</div>
-                <div className="inline-block px-5">Github</div>
+                {
+                    contacts.map((contact: Contact, index: number) => (
+                        <Link className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
+                    ))
+                }
             </div>
         </div>
     );

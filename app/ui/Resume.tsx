@@ -25,7 +25,7 @@ export default function Resume({ resume }: ResumeProps) {
     } = resume.resume
     return(
         <PageWrapper>
-            <ResumeHeader name={name} jobtitle={jobtitle} contact={contact}/>
+            <ResumeHeader name={name} jobtitle={jobtitle} contacts={contact}/>
             <div className="flex">
             <LeftPanel>
                 <ResumeSummary></ResumeSummary>
