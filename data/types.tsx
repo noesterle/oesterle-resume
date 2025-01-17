@@ -51,9 +51,13 @@ export interface ReactChildren {
   
   export type Position = {
     title: string;
+    duration: Duration[];
+    desc: string[];
+  }
+
+  export type Duration = {
     start: string;
     end: string;
-    desc: string[];
   }
   
   export type Project = {

@@ -34,7 +34,7 @@ export default function Resume({ resume }: ResumeProps) {
             </LeftPanel>
             <RightPanel>
                 <ResumeSkills skills={skills}></ResumeSkills>
-                <ResumeExperience></ResumeExperience>
+                <ResumeExperience experiences={employment}></ResumeExperience>
             </RightPanel>
             </div>
         </PageWrapper>

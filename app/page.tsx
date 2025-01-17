@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Resume from "./ui/Resume";
-import {fs} from 'fs';
+import {readFileSync} from 'fs';
+import {load} from 'js-yaml';
 
 
 export default function Home() {
-  const yaml = require('js-yaml');
-  const fs   = require('fs');
   var doc = null
   try {
-    doc = yaml.load(fs.readFileSync('data/resume.yml', 'utf8'));
+    doc = load(readFileSync('data/resume.yml', 'utf8'));
     // console.log(doc);
   } catch (e) {
     // console.log(e);
