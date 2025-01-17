@@ -12,7 +12,7 @@ export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) 
     return(
         <div className="py-2">
             {/* <div>Header</div> */}
-            <div className="flex">
+            <div className="flex" key="name">
                 <div className="inline-block flex-1 uppercase text-4xl">{name}</div>
                 <div className="inline-block flex-1 align-text-bottom text-right uppercase justify-end text-2xl">
                     <p className="align-text-bottom text-right justify-end text-2xl">
@@ -21,7 +21,7 @@ export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) 
                 </div>
             </div>
             <hr/>
-            <div className="flex">
+            <div className="flex" key="contact">
                 {
                     contacts.map((contact: Contact, index: number) => (
                         <Link className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
