@@ -33,7 +33,7 @@ export default function Resume({ resume }: ResumeProps) {
                 <ResumeProjects projects={projects}></ResumeProjects>
             </LeftPanel>
             <RightPanel>
-                <ResumeSkills></ResumeSkills>
+                <ResumeSkills skills={skills}></ResumeSkills>
                 <ResumeExperience></ResumeExperience>
             </RightPanel>
             </div>
