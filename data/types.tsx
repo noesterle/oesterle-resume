@@ -58,5 +58,5 @@ export interface ReactChildren {
   
   export type Project = {
     title: string;
-    desc: string;
+    desc: string[];
   }
