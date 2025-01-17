@@ -12,7 +12,7 @@ export default function ResumeSkills({skills}:SkillProps) {
             <div>
                 {
                     skills.map((skill: Skill, index: number)=>(
-                        <div>
+                        <div key={index}>
                             <span  className="text-bse uppercase">{skill.title} </span><span>{skill.items.join(", ")}</span>
                         </div>
                     ))
