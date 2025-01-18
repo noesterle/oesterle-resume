@@ -344,14 +344,14 @@ a.link:hover span {
 
 /* override default bootstrap adjustments */
 ul {
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 a, a:visited, a:link, a:hover, a:active {
   color:#000;
 }
 
-hr{
+hr {
   border-color:#000;
 }
 

@@ -7,9 +7,9 @@ type SummaryProps = {
 export default function ResumeSummary({ summary }: SummaryProps) {
     return(
         <div className="py-2">
-            <span className="uppercase header">Summary</span>
+            <span className="uppercase resume-header">Summary</span>
             <hr/>
-            <div className="text-justify desc">{summary}</div>
+            <div className="text-justify resume-desc">{summary}</div>
         </div>
     );
 }

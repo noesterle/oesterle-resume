@@ -24,6 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="styles/main.css" media="all" />
+        <link rel="stylesheet" href="styles/print.css" media="print" />
+        <link rel="stylesheet" href="styles/custom.css" media="all" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
