@@ -15,7 +15,7 @@ type ResumeProps = {
 export default function Resume({ resume }: ResumeProps) {
     const {
         name,
-        jobtitle,
+        jobTitle,
         contact,
         summary,
         education,
@@ -25,7 +25,7 @@ export default function Resume({ resume }: ResumeProps) {
     } = resume.resume
     return(
         <PageWrapper>
-            <ResumeHeader name={name} jobtitle={jobtitle} contacts={contact}/>
+            <ResumeHeader name={name} jobTitle={jobTitle} contacts={contact}/>
             <div className="flex">
             <LeftPanel>
                 <ResumeSummary summary={summary}></ResumeSummary>

@@ -4,11 +4,11 @@ import Link from "next/link";
 
 type HeaderProps = {
     name: Name;
-    jobtitle: JobTitle;
+    jobTitle: JobTitle;
     contacts: Contact[];
 }
 
-export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) {
+export default function ResumeHeader({ name, jobTitle, contacts }: HeaderProps) {
     return(
         <div className="py-2">
             {/* <div>Header</div> */}
@@ -16,7 +16,7 @@ export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) 
                 <div className="inline-block flex-1 uppercase text-4xl">{name}</div>
                 <div className="inline-block flex-1 align-text-bottom text-right uppercase justify-end text-2xl">
                     <p className="align-text-bottom text-right justify-end text-2xl">
-                        {jobtitle}
+                        {jobTitle}
                     </p>
                 </div>
             </div>
