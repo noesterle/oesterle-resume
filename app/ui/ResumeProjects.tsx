@@ -16,8 +16,8 @@ export default function ResumeProjects({projects}: ProjectsProp) {
                             <span className="text-xl">{project.title}</span>
                             <div>
                                 <ul key={index} className="list-inside list-disc text-sm text-center sm:text-left">
-                                    {project.desc.map((line: string, index: number)=>(
-                                        <li>{line}</li>
+                                    {project.desc.map((line: string, indexDesc: number)=>(
+                                        <li key={indexDesc}>{line}</li>
                                     ))
                                     }
                                 </ul>

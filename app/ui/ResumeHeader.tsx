@@ -24,7 +24,7 @@ export default function ResumeHeader({ name, jobtitle, contacts }: HeaderProps) 
             <div className="flex" key="contact">
                 {
                     contacts.map((contact: Contact, index: number) => (
-                        <Link className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
+                        <Link key={index} className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
                     ))
                 }
             </div>

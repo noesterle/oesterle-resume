@@ -37,8 +37,8 @@ export default function ResumeExperience({experiences}: ExperienceProp) {
                                         <div>
                                             <ul key={index} className="list-inside list-disc text-sm text-center sm:text-left">
                                                 {
-                                                    position.desc.map((desc: string, indexInner: number)=>(
-                                                        <li>{desc}</li>
+                                                    position.desc.map((desc: string, indexDesc: number)=>(
+                                                        <li key={indexDesc}>{desc}</li>
                                                     ))
                                                 }
                                             </ul>
