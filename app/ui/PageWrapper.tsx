@@ -4,9 +4,9 @@ import { ScriptProps } from "next/script";
 export default function PageWrapper({children}: ScriptProps) {
     return(
         <div id="page-wrapper">
-            <div className="container document-container pages" style={{height: '1100px !important'}}>
-                <div className="page page-1" style={{height: '1100px !important', overflow: 'hidden'}}>
-                    <div className="page-content" style={{marginLeft: '35px', marginRight: '35px', height: '1085px'}}>
+            <div className="mx-auto my-12 h-[1100px] w-[780px] bg-background border-[1px] border-gray-500 document-container pages">
+                <div className="h-[1100px] overflow-hidden page page-1">
+                    <div className="mx-[35px] h-[1085px] page-content">
                         {children}
                     </div>
                 </div>
