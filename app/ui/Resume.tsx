@@ -7,6 +7,7 @@ import ResumeSkills from "./ResumeSkills";
 import ResumeProjects from "./ResumeProjects";
 import ResumeHeader from "./ResumeHeader";
 import ResumeSummary from "./ResumeSummary";
+import { Resume as ResumeType } from "@/data/types";
 
 type ResumeProps = {
     resume: ResumeType

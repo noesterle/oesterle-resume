@@ -3,16 +3,16 @@ export interface ReactChildren {
   }
   
   export type Resume = {
-    name: Name;
-    jobtitle: JobTitle;
-    summary: Name;
-    contacts: Contact[];
-    links: Link[];
-    skills: Skill[];
-    accomplishments: Accomplishment[];
-    education: School[];
-    experience: Experience[];
-    projects: Project[];
+    resume: {
+        name: Name;
+        jobTitle: JobTitle;
+        summary: Name;
+        contact: Contact[];
+        skills: Skill[];
+        education: School[];
+        employment: Experience[];
+        projects: Project[];
+    }
   }
   
   export type Name = string;
