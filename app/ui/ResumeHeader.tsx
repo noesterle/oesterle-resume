@@ -1,11 +1,30 @@
 import {Name, Contact, JobTitle} from "@/data/types"
 import Link from "next/link";
-
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 type HeaderProps = {
     name: Name;
     jobTitle: JobTitle;
     contacts: Contact[];
+}
+
+function getIcon(type: string, index: number) {
+    var obj = <></>
+    switch (type) {
+        case 'MdEmail':
+            obj = <MdEmail className="inline-block pr-2" key={'icon'+index} />
+            break;
+        case 'FaGithub':
+            obj = <FaGithub className="inline-block pr-2" key={'icon'+index} />
+            break;
+        case 'FaLinkedin':
+            obj = <FaLinkedin className="inline-block pr-2" key={'icon'+index} />
+            break;
+        default:
+            break;
+    }
+    return obj
 }
 
 export default function ResumeHeader({ name, jobTitle, contacts }: HeaderProps) {
@@ -24,7 +43,10 @@ export default function ResumeHeader({ name, jobTitle, contacts }: HeaderProps) 
             <div className="flex text-foreground" key="contact">
                 {
                     contacts.map((contact: Contact, index: number) => (
-                        <Link key={index} className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
+                        <div key={index}>
+                        {getIcon(contact.icon, index)}
+                        <Link key={"link"+index} className="inline-block pr-10" href={contact.link} target="_blank">{contact.title}</Link>
+                        </div>
                     ))
                 }
             </div>

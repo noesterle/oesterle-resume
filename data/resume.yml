@@ -3,13 +3,13 @@ resume:
   jobTitle: Software Engineer
   contact:
     - title: contact@oesterle.io
-      icon: envelope
+      icon: MdEmail
       link: mailto:contact@oesterle.io
     - title: Github://noesterle
-      icon: Github
+      icon: FaGithub
       link: https://github.com/noesterle
     - title: LinkedIn://nathan-oesterle
-      icon: LinkedIn
+      icon: FaLinkedin
       link: https://linkedin.com/nathan-oesterle
   summary: "To obtain a full-time position as a Software Engineer in order to solve challenging problems and deploy quality code that helps to improve people's digital experiences and lives."
   education:
