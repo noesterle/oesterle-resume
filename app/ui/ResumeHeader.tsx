@@ -13,13 +13,13 @@ function getIcon(type: string, index: number) {
     var obj = <></>
     switch (type) {
         case 'MdEmail':
-            obj = <MdEmail className="inline-block pr-2" key={'icon'+index} />
+            obj = <MdEmail className="inline-block pr-2 fill-black size-6" key={'icon'+index} />
             break;
         case 'FaGithub':
-            obj = <FaGithub className="inline-block pr-2" key={'icon'+index} />
+            obj = <FaGithub className="inline-block pr-2 fill-black size-6" key={'icon'+index} />
             break;
         case 'FaLinkedin':
-            obj = <FaLinkedin className="inline-block pr-2" key={'icon'+index} />
+            obj = <FaLinkedin className="inline-block pr-2 fill-black size-6" key={'icon'+index} />
             break;
         default:
             break;
