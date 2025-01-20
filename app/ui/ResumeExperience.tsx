@@ -30,7 +30,13 @@ export default function ResumeExperience({experiences}: ExperienceProp) {
                                         <div className="flex">
                                             <span className="inline-block italic resume-desc pr-1">{position.title}</span>
                                             <span className="inline-block flex-auto resume-desc">{experience.location}</span>
-                                            <span className="inline-block resume-desc">{arrange(position.duration)}</span>
+                                            <div className="flex flex-col">
+                                            {
+                                                position.duration.map((dur: Duration, index: number)=>(
+                                                    <span key={index} className="inline-block resume-desc">{dur.start}-{dur.end}</span>
+                                                ))
+                                            }
+                                            </div>
                                         </div>
                                         <div>
                                             <ul key={index} className="list-inside list-disc text-sm text-center sm:text-left">
