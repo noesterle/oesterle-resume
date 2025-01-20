@@ -33,8 +33,8 @@ export default function ResumeHeader({ name, jobTitle, contacts }: HeaderProps) 
             {/* <div>Header</div> */}
             <div className="flex" key="name">
                 <div className="inline-block flex-1 uppercase text-4xl">{name}</div>
-                <div className="inline-block flex-1 align-text-bottom text-right uppercase justify-end text-2xl">
-                    <p className="align-text-bottom text-right justify-end text-2xl">
+                <div className="inline-block flex-1 uppercase justify-end text-2xl relative">
+                    <p className="text-2xl absolute bottom-0 right-0">
                         {jobTitle}
                     </p>
                 </div>
