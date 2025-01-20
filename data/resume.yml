@@ -64,15 +64,15 @@ resume:
       - TypeScript
       - HTML
       - Ruby
-      - JUnit
       - Flask
       - Django
       - Dataweave
-      - Docker Compose
     - title: tools
       items:
       - Linux
       - Docker
+      - Docker Compose
+      - JUnit
       - Windows
       - Android
       - Mulesoft
