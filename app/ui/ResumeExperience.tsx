@@ -4,23 +4,13 @@ type ExperienceProp = {
     experiences: Experience[]
 }
 
-function arrange(durations:Duration[]) {
-    var joinedDurations = []
-    for (let index = 0; index < durations.length; index++) {
-        const duration = durations[index];
-        joinedDurations.push(duration.start+"-"+duration.end)
-    }
-    const totalDuration = joinedDurations.join(', ')
-    return totalDuration
-}
-
 export default function ResumeExperience({experiences}: ExperienceProp) {
     return(
         <div className="py-2">
             <span className="text-2xl uppercase resume-header">Employment</span>
             <hr/>
             {
-                experiences.map((experience: Experience, index: number)=>(
+                experiences.map((experience: Experience)=>(
                     <div key={experience.company}>
                         <div className="inline-block flex-auto text-xl font-bold resume-title">{experience.company}</div>
                         <div>
