@@ -16,7 +16,7 @@ export default function Home() {
                             ], 
                             skills:[], education: [], employment:[], projects:[]}}
   try {
-    doc = load(readFileSync('data/resume.yml', 'utf8'));
+    doc = load(readFileSync('data/resume.yml', 'utf8')) as ResumeType;
     // console.log(doc);
   } catch (e) {
     // console.log(e);
