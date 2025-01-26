@@ -10,7 +10,7 @@ type HeaderProps = {
 }
 
 function getIcon(type: string, index: number) {
-    var obj = <></>
+    let obj = <></>
     switch (type) {
         case 'MdEmail':
             obj = <MdEmail className="inline-block pr-2 fill-black size-6" key={'icon'+index} />
