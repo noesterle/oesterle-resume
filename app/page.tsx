@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Resume from "./ui/Resume";
 import {readFileSync} from 'fs';
 import {load} from 'js-yaml';
@@ -6,7 +5,7 @@ import { Resume as ResumeType } from "@/data/types";
 
 
 export default function Home() {
-  var doc: ResumeType = {
+  let doc: ResumeType = {
                           resume: {
                             name:'Nathan Oesterle', jobTitle:'Software Engineer', 
                             summary:'Please contact Nathan Oesterle about this error.', 
@@ -18,7 +17,7 @@ export default function Home() {
   try {
     doc = load(readFileSync('data/resume.yml', 'utf8')) as ResumeType;
     // console.log(doc);
-  } catch (e) {
+  } catch (e) { // eslint-disable-line @typescript-eslint/no-unused-vars
     // console.log(e);
   }
   // console.log(doc)
