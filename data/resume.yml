@@ -13,7 +13,7 @@ resume:
       link: https://linkedin.com/nathan-oesterle
   summary: "To obtain a full-time position as a Software Engineer in order to solve challenging problems and deploy quality code that helps to improve people's digital experiences and lives."
   education:
-    - title: Rochester Institute of Technology
+    - title: RIT
       degree: Bachelors of Science Software Engineering 2020
       desc: "Advanced Courses: Senior Project; Process and Project Management; Human Centered Requirements and Design; Software Testing; Performance Engineering; Analysis of Algorithms"
   projects:
@@ -87,14 +87,16 @@ resume:
         - start: Aug 2020
           end: present
         desc:
-        - Designed, implemented, documented, and maintained Mulesoft microservices using Dataweave and Java to act as wrappers for API endpoints from external services to provide a more uniform experience when using 3rd party services
+        - Developed, documented, and maintained Mulesoft microservices using Dataweave and Java to act as wrappers for API endpoints from external services to provide a more uniform experience when using 3rd party services
         - Wrote documentation and example code used to onboard new partners to our API and assisted partners with implementation issues
-        - Designed, implemented, documented, and maintained a Mulesoft application to manage automated Billpay with virtual credit cards funded by deposit accounts
+        - Created, documented, and maintained a Mulesoft application to manage automated Billpay with virtual credit cards funded by deposit accounts
         - Implemented automated Gitlab CI/CD pipelines to automatically build, test, scan for security issues, and deploy into multiple environments
         - Replaced a third party tool that compared employee information with customer and account information to flag potential fraud with an internal Python Pandas script as licensing costs were increasing dramatically, leading to discovering the third party tool as comparing address phonetically instead of by string contents which increased the quality of generated reports
-        - Designed, implemented, and documented Excel Macros to assist the risk department investigating and reporting fraudulent transactions as well as producing end of year reports, handling hours of work with the click of a button
-        - Designed and deployed a central location for documentation that pulls documentation from numerous Gitlab repositories to view as one website or document, for both users and developers alike
+        - Wrote Excel Macros to assist the risk department investigating and reporting fraudulent transactions as well as producing end of year reports, handling hours of work with the click of a button
+        - Planned and deployed a central location for documentation that pulls documentation from numerous Gitlab repositories to view as one website or document, for users and developers alike
         - Designed, implemented, documented, and maintained microservices to ingest textfiles in various flat-file formats to add data to Salesforce to help Customer Service team members assist customers
+        - Developed an application to enroll a thousand customers to a premium debit card program, issuing cards and transferring information, so other departments and tellers do not have to manually enroll customers
+        - Lead upgrade of Mule projects from Java 8 to Java 17, upgrading the development environment, mule engine, and each project's dependencies.
     - company: Entropix LLC
       location: Victor NY
       positions:
