@@ -111,7 +111,7 @@ resume:
         - Added ability to show how signals are tracked over time.
         - Ported antenna software written in C between CPU architectures for hardware upgrades.
     - company: General Dynamics Mission Systems
-      location: Pittfield MA
+      location: Pittsfield MA
       positions:
       - title: Software Developer Co-op
         duration:
@@ -120,8 +120,7 @@ resume:
         - start: June 2016
           end: Dec 2016
         desc:
-        - Worked on various pieces of software to track and demodulate high frequency signals and display info to the user, including a Java plugin that communicated to a Python server.
-        - Created and edited Java based user interfaces with JformDesigner.
-        - Added master/slave functionality so separate instances of the server can work for each other.
-        - Added ability to show how signals are tracked over time.
-        - Ported antenna software written in C between CPU architectures for hardware upgrades.
+        - Worked in a team of 6 creating a testbed and trainer for military bases, focusing on simulating security cameras, known as the Video Interface, over an HTTP connection.
+        - Created a Software Test Plan in Rational DOORS for the Video Interface and Panel Emulator.
+        - Integrated the security camera simulation with third party software to view the video stream.
+        - Helped rewrite the log display and logging subsystem in the User Interface subsystem.
